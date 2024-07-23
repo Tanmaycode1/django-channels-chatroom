@@ -9,6 +9,11 @@ This repository contains the code for a simple chat application using Django and
 - **User Display**: See all currently connected users.
 - **Real-Time Chat**: Messages are sent and received in real-time.
 
+## Project Images:
+![image](https://github.com/user-attachments/assets/0ce919ba-0904-4af6-b10c-cc433c44ba77)
+
+![image](https://github.com/user-attachments/assets/07581b17-61af-47f8-9aa2-c648beeb6de5)
+
 ## Installation and Setup
 
 1. **Clone the repository:**
@@ -53,6 +58,5 @@ This repository contains the code for a simple chat application using Django and
 - **Join the Chat Room**: Enter the chat room to start chatting with others.
 - **Real-Time Updates**: Enjoy instant messaging with all connected users displayed.
 
-## License
 
-This project is licensed under the MIT License.
+
