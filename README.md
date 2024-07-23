@@ -52,6 +52,43 @@ This repository contains the code for a simple chat application using Django and
 
    Open your browser and go to `http://127.0.0.1:8000`
 
+
+## Running the Application with Daphne
+
+To run the Django application using Daphne, follow these steps:
+
+### Installation
+
+Ensure Daphne is installed:
+
+```bash
+pip install daphne
+```
+
+### Configuration
+
+Ensure your `settings.py` includes:
+
+```python
+ASGI_APPLICATION = 'your_project_name.asgi.application'
+```
+
+### Running Daphne
+
+Start the server with Daphne:
+
+```bash
+daphne -b 0.0.0.0 -p 8000 your_project_name.asgi:application
+```
+
+Replace `your_project_name` with your project's actual name.
+
+### Notes
+
+- **Static Files**: Use a reverse proxy like Nginx to serve static files efficiently in production.
+
+!
+
 ## Usage
 
 - **Login**: Use your credentials to log in.
