@@ -8,6 +8,9 @@ def index(request):
     return redirect('chatroom')
 
 def chatroom(request):
+    user = request.user
+    if not user.is_authenticated:
+        return redirect('login')
     chat_messages = Message.objects.all()
 
     context = {
