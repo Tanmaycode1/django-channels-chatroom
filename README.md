@@ -65,23 +65,14 @@ Ensure Daphne is installed:
 pip install daphne
 ```
 
-### Configuration
-
-Ensure your `settings.py` includes:
-
-```python
-ASGI_APPLICATION = 'your_project_name.asgi.application'
-```
-
 ### Running Daphne
 
 Start the server with Daphne:
 
 ```bash
-daphne -b 0.0.0.0 -p 8000 your_project_name.asgi:application
+daphne -b 0.0.0.0 -p 8000 DjangoChatroom.asgi:application
 ```
 
-Replace `your_project_name` with your project's actual name.
 
 ### Notes
 
