@@ -74,11 +74,6 @@ daphne -b 0.0.0.0 -p 8000 DjangoChatroom.asgi:application
 ```
 
 
-### Notes
-
-- **Static Files**: Use a reverse proxy like Nginx to serve static files efficiently in production.
-
-!
 
 ## Usage
 
